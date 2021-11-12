@@ -1,38 +1,78 @@
+.ph {
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 37%;
+}
+
+.Cart1 .FullName,
+.Cart1 .Adress {
+    display: flex;
+    display: inline-flex;
+    margin-left: 6%;
+    color: #337180;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.Cart1 {
+    background-color: #fffdfd;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+    margin-left: 15%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 13%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fb,
+.fa,
+.ai {
+    color: white;
+    margin-left: 20%;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icons {
+    background-color: #337180;
+    padding: 20px;
+    font-size: 23px;
+    border-radius: 0 0 15px 15px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Cart2 .Part1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25%;
 }
 
-.App-link {
-  color: #61dafb;
+.Part1 .Code {
+    width: 40%;
+    margin-left: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cart2 {
+    background-color: #337180;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+    margin-left: 15%;
+
+}
+
+.Part1 .FullName {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+    white-space: nowrap;
+    color: white;
+    margin-top: 5%;
 }
